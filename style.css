@@ -12,7 +12,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.2s linear;
 }
 
@@ -239,6 +239,7 @@ h5 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap:1rem;
 }
 .card {
   display: flex;
@@ -251,6 +252,7 @@ h5 {
   color: black;
   border-radius: 5px;
   box-shadow: 10px 10px 10px black;
+  gap:1rem;
 }
 .parent-1 {
   display: flex;
@@ -396,12 +398,12 @@ i p {
 }
 .para {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 2px;
 }
 .para p {
   font-size: 20px;
-  margin: 0px 3px;
+  margin: 1rem 3px;
 }
 .para a {
   color: rgb(255, 56, 56);
